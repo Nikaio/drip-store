@@ -1,13 +1,10 @@
 import { defineConfig } from 'vite';
-import { reactRouter } from '@react-router/dev/vite';
+import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
-import { preset } from '@vercel/react-router';
 
 export default defineConfig({
   plugins: [
-    reactRouter({
-      presets: [preset()],
-    }),
+    react(),
     tailwindcss(),
   ],
 });
