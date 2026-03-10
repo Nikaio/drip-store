@@ -17,57 +17,12 @@ Drip Store é um e-commerce frontend desenvolvido em React, com foco em uma expe
 
 ---
 
-## 📁 Estrutura de Pastas
-
-```
-loja-drip/
-├── public/                   # Imagens públicas (slides, coleções, produtos)
-├── src/
-│   ├── assets/               # Ícones SVG e imagens estáticas
-│   ├── components/           # Componentes reutilizáveis
-│   │   ├── Header/
-│   │   ├── Footer/
-│   │   ├── Logo/
-│   │   ├── Section/
-│   │   ├── ProductCard/
-│   │   ├── ProductListing/
-│   │   ├── ProductOptions/
-│   │   ├── ProductDetails/
-│   │   ├── BuyBox/
-│   │   ├── Gallery/
-│   │   └── FilterGroup/
-│   ├── pages/                # Páginas da aplicação
-│   │   ├── Layout/
-│   │   ├── HomePage/
-│   │   ├── ProductListingPage/
-│   │   └── ProductViewPage/
-│   ├── App.jsx               # Configuração de rotas
-│   └── main.jsx              # Ponto de entrada
-├── index.html
-├── package.json
-├── vite.config.js
-└── tailwind.config.js
-```
-
----
-
-## 🗺️ Rotas
-
-| Rota | Componente | Descrição |
-|---|---|---|
-| `/` | `HomePage` | Página inicial com slider, coleções e produtos em alta |
-| `/produtos` | `ProductListingPage` | Listagem de produtos com filtros e ordenação |
-| `/product/:id` | `ProductViewPage` | Detalhes do produto com galeria e buy box |
-
----
-
 ## ⚙️ Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
 - [Node.js](https://nodejs.org/) (versão 18 ou superior recomendada)
-- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
-
+- [npm](https://www.npmjs.com/) 
 ---
 
 ## 📦 Instalação
@@ -121,25 +76,6 @@ npm run lint
 
 ---
 
-## 🎨 Paleta de Cores
-
-| Nome | Hex |
-|---|---|
-| Primary | `#C92071` |
-| Secondary | `#B5B6F2` |
-| Tertiary | `#991956` |
-| Error | `#EE4266` |
-| Success | `#52CA76` |
-| Warning | `#F6AA1C` |
-| Dark Gray | `#1F1F1F` |
-| Dark Gray 2 | `#474747` |
-| Dark Gray 3 | `#666666` |
-| Light Gray | `#8F8F8F` |
-| Light Gray 2 | `#CCCCCC` |
-| Light Gray 3 | `#F5F5F5` |
-| White | `#FFFFFF` |
-
----
 
 ## 🧩 Componentes Principais
 
@@ -177,7 +113,7 @@ Grupo de filtros com suporte a `checkbox` ou `radio`, renderizado dinamicamente 
 
 ## ☁️ Deploy
 
-O projeto está configurado para deploy na [Vercel](https://vercel.com/). Após cada push na branch principal, o deploy é realizado automaticamente.
+O projeto está configurado para deploy na [Vercel]https://drip-store-pied.vercel.app/. Após cada push na branch principal, o deploy é realizado automaticamente.
 
 Para fazer deploy manualmente via CLI:
 
@@ -193,4 +129,4 @@ vercel
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins educacionais pela [Digital College](https://digitalcollege.com.br/).
+Este projeto foi desenvolvido fins educacionais por Nicollas Alessandro.
