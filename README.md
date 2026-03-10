@@ -22,7 +22,7 @@ Drip Store é um e-commerce frontend desenvolvido em React, com foco em uma expe
 Antes de começar, certifique-se de ter instalado:
 
 - [Node.js](https://nodejs.org/) (versão 18 ou superior recomendada)
-- [npm](https://www.npmjs.com/) 
+- [npm] (https://www.npmjs.com/) 
 ---
 
 ## 📦 Instalação
