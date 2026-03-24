@@ -9,7 +9,7 @@ const MainNav = () => {
     }`;
 
   return (
-    <nav className="flex gap-4">
+    <nav className="flex flex-col md:flex-row gap-4">
       <NavLink to="/" className={navLinkClass}>Home</NavLink>
       <NavLink to="/categorias" className={navLinkClass}>Categorias</NavLink>
       <NavLink to="/produtos" className={navLinkClass}>Produtos</NavLink>
