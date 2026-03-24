@@ -7,7 +7,7 @@ const ProductCard = ({ product = {} }) => {
   const navigate = useNavigate();
 
   const isInCart = cartItems.some((item) => item.id === id);
-  console.log("Render Card", id, { isInCart, cartItems });
+  
 
   const discountPercentage =
     typeof price === "number" &&
@@ -75,7 +75,6 @@ const ProductCard = ({ product = {} }) => {
               : "bg-primary text-white hover:brightness-110"
           }`}
         >
-          {console.log("Botão render:", id, isInCart)}
           {isInCart ? "Adicionado ao carrinho" : "Adicionar ao carrinho"}
         </button>
 
